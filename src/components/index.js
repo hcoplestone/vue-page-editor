@@ -14,5 +14,5 @@ Object.keys(Components).forEach((name) => {
   app.component(name, Components[name]);
 });
 
-export { EmailEditor };
+export { EmailEditor, LandingPageEditor };
 export default Components;
