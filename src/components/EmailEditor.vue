@@ -58,7 +58,7 @@ export default {
       this.editor = unlayer.createEditor({
         ...options,
         id: this.id,
-        displayMode: 'email',
+        displayMode: 'web',
         source: {
           name: pkg.name,
           version: pkg.version,
