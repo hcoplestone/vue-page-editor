@@ -1,9 +1,11 @@
 import { createApp } from 'vue/dist/vue.esm-bundler.js';
 
 import EmailEditor from './EmailEditor.vue';
+import LandingPageEditor from './LandingPageEditor.vue';
 
 const Components = {
   EmailEditor,
+  LandingPageEditor
 };
 
 const app = createApp({});
